@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(41, 108, 70);
+    background-image: url('topography.svg');
+    background-repeat: repeat;
+}
+
+.Header {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 40%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.Nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 20px; /* É o espaço dentro do preenchimento da box */
+    margin: 20px 0; /* A propriedade margin ela só aceita valores de númericos(px), % ou rem(0). */
+    max-width: 40%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Esse 0.1 aqui ele serve para dar esse efeito de transparência na box */
+    color: #333;
+}
+
+.Main {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px; 
+    margin: 20px 0;
+    max-width: 80%;
+    border-radius: 15px; 
+}
+
+.Section {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px dashed #000;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Article {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px dashed #000;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.Footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0; 
+    max-width: 40%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
